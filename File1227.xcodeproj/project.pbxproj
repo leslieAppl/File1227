@@ -9,21 +9,42 @@
 /* Begin PBXBuildFile section */
 		CE31CE3F259854F800E26569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE3E259854F800E26569 /* AppDelegate.swift */; };
 		CE31CE41259854F800E26569 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE40259854F800E26569 /* SceneDelegate.swift */; };
-		CE31CE43259854F800E26569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE42259854F800E26569 /* ViewController.swift */; };
 		CE31CE46259854F800E26569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE31CE44259854F800E26569 /* Main.storyboard */; };
 		CE31CE48259854FB00E26569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE31CE47259854FB00E26569 /* Assets.xcassets */; };
 		CE31CE4B259854FB00E26569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE31CE49259854FB00E26569 /* LaunchScreen.storyboard */; };
+		CE31CE572598598D00E26569 /* PeopleLister.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE31CE562598598D00E26569 /* PeopleLister.xib */; };
+		CE31CE5B25985B5300E26569 /* GroupLister.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE5A25985B5300E26569 /* GroupLister.swift */; };
+		CE31CE5E25985C0200E26569 /* PeopleDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE5D25985C0200E26569 /* PeopleDocument.swift */; };
+		CE31CE6125985C2A00E26569 /* PeopleLister.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE6025985C2A00E26569 /* PeopleLister.swift */; };
+		CE31CE6425985CCE00E26569 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE6325985CCE00E26569 /* Person.swift */; };
+		CE31CE6725985CE200E26569 /* PersonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE31CE6625985CE200E26569 /* PersonCell.xib */; };
+		CE31CE6A25985D3800E26569 /* smiley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE31CE6925985D3800E26569 /* smiley.jpg */; };
+		CE31CE6D25985D3F00E26569 /* frowney.png in Resources */ = {isa = PBXBuildFile; fileRef = CE31CE6C25985D3F00E26569 /* frowney.png */; };
+		CE31CE7425985F2300E26569 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE7325985F2300E26569 /* PreviewViewController.swift */; };
+		CE31CE7725985F4F00E26569 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE31CE7625985F4F00E26569 /* MainInterface.storyboard */; };
+		CE31CE7A2598615100E26569 /* PreviewVC-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE31CE792598615100E26569 /* PreviewVC-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE31CE3B259854F800E26569 /* File1227.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = File1227.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE31CE3E259854F800E26569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE31CE40259854F800E26569 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE31CE42259854F800E26569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE31CE45259854F800E26569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE31CE47259854FB00E26569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE31CE4A259854FB00E26569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE31CE4C259854FB00E26569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE31CE562598598D00E26569 /* PeopleLister.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleLister.xib; sourceTree = "<group>"; };
+		CE31CE5A25985B5300E26569 /* GroupLister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupLister.swift; sourceTree = "<group>"; };
+		CE31CE5D25985C0200E26569 /* PeopleDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDocument.swift; sourceTree = "<group>"; };
+		CE31CE6025985C2A00E26569 /* PeopleLister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleLister.swift; sourceTree = "<group>"; };
+		CE31CE6325985CCE00E26569 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CE31CE6625985CE200E26569 /* PersonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonCell.xib; sourceTree = "<group>"; };
+		CE31CE6925985D3800E26569 /* smiley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smiley.jpg; sourceTree = "<group>"; };
+		CE31CE6C25985D3F00E26569 /* frowney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frowney.png; sourceTree = "<group>"; };
+		CE31CE7325985F2300E26569 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		CE31CE7625985F4F00E26569 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		CE31CE792598615100E26569 /* PreviewVC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreviewVC-Info.plist"; sourceTree = "<group>"; };
+		CE31CE952598626100E26569 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +63,7 @@
 			children = (
 				CE31CE3D259854F800E26569 /* File1227 */,
 				CE31CE532598552D00E26569 /* PeopleGroupPreview */,
+				CE31CE942598624E00E26569 /* Framework */,
 				CE31CE3C259854F800E26569 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,8 +81,15 @@
 			children = (
 				CE31CE3E259854F800E26569 /* AppDelegate.swift */,
 				CE31CE40259854F800E26569 /* SceneDelegate.swift */,
-				CE31CE42259854F800E26569 /* ViewController.swift */,
 				CE31CE44259854F800E26569 /* Main.storyboard */,
+				CE31CE5A25985B5300E26569 /* GroupLister.swift */,
+				CE31CE5D25985C0200E26569 /* PeopleDocument.swift */,
+				CE31CE6025985C2A00E26569 /* PeopleLister.swift */,
+				CE31CE562598598D00E26569 /* PeopleLister.xib */,
+				CE31CE6325985CCE00E26569 /* Person.swift */,
+				CE31CE6625985CE200E26569 /* PersonCell.xib */,
+				CE31CE6925985D3800E26569 /* smiley.jpg */,
+				CE31CE6C25985D3F00E26569 /* frowney.png */,
 				CE31CE47259854FB00E26569 /* Assets.xcassets */,
 				CE31CE49259854FB00E26569 /* LaunchScreen.storyboard */,
 				CE31CE4C259854FB00E26569 /* Info.plist */,
@@ -71,8 +100,19 @@
 		CE31CE532598552D00E26569 /* PeopleGroupPreview */ = {
 			isa = PBXGroup;
 			children = (
+				CE31CE7325985F2300E26569 /* PreviewViewController.swift */,
+				CE31CE7625985F4F00E26569 /* MainInterface.storyboard */,
+				CE31CE792598615100E26569 /* PreviewVC-Info.plist */,
 			);
 			path = PeopleGroupPreview;
+			sourceTree = "<group>";
+		};
+		CE31CE942598624E00E26569 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				CE31CE952598626100E26569 /* QuickLook.framework */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,8 +172,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE31CE6A25985D3800E26569 /* smiley.jpg in Resources */,
+				CE31CE7A2598615100E26569 /* PreviewVC-Info.plist in Resources */,
 				CE31CE4B259854FB00E26569 /* LaunchScreen.storyboard in Resources */,
+				CE31CE572598598D00E26569 /* PeopleLister.xib in Resources */,
+				CE31CE6D25985D3F00E26569 /* frowney.png in Resources */,
 				CE31CE48259854FB00E26569 /* Assets.xcassets in Resources */,
+				CE31CE7725985F4F00E26569 /* MainInterface.storyboard in Resources */,
+				CE31CE6725985CE200E26569 /* PersonCell.xib in Resources */,
 				CE31CE46259854F800E26569 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,9 +191,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE31CE43259854F800E26569 /* ViewController.swift in Sources */,
+				CE31CE6425985CCE00E26569 /* Person.swift in Sources */,
+				CE31CE5B25985B5300E26569 /* GroupLister.swift in Sources */,
+				CE31CE7425985F2300E26569 /* PreviewViewController.swift in Sources */,
 				CE31CE3F259854F800E26569 /* AppDelegate.swift in Sources */,
 				CE31CE41259854F800E26569 /* SceneDelegate.swift in Sources */,
+				CE31CE6125985C2A00E26569 /* PeopleLister.swift in Sources */,
+				CE31CE5E25985C0200E26569 /* PeopleDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
