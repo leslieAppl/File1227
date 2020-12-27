@@ -41,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				CE31CE3D259854F800E26569 /* File1227 */,
+				CE31CE532598552D00E26569 /* PeopleGroupPreview */,
 				CE31CE3C259854F800E26569 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +66,13 @@
 				CE31CE4C259854FB00E26569 /* Info.plist */,
 			);
 			path = File1227;
+			sourceTree = "<group>";
+		};
+		CE31CE532598552D00E26569 /* PeopleGroupPreview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PeopleGroupPreview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDY29GF949;
 				INFOPLIST_FILE = File1227/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.appl.leslie.File1227;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDY29GF949;
 				INFOPLIST_FILE = File1227/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.appl.leslie.File1227;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
