@@ -9,37 +9,55 @@ import UIKit
 
 class PreviewViewController: UITableViewController {
 
+    var people = [Person]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        
     }
 
+    func preparePreviewOfFile(at url: URL, completionHandler handler: @escaping (Error?) -> Void) {
+        
+        let doc = PeopleDocument(fileURL: url)
+        doc.open { (ok) in
+            
+            if ok {
+                self.people = doc.people
+                self.tableView.register(UINib(nibName: "PersonCell", bundle: nil), forCellReuseIdentifier: "Person")
+                self.tableView.reloadData()
+                handler(nil)
+            }
+            else {
+                handler(NSError(domain: "NoDataDomain", code: -1, userInfo: nil))
+            }
+        }
+    }
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return self.people.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Person", for: indexPath)
+        let first = cell.viewWithTag(1) as! UITextField
+        let last = cell.viewWithTag(2) as! UITextField
+        let p = self.people[indexPath.row]
+        first.text = p.firstName
+        last.text = p.lastName
+        first.isEnabled = false
+        last.isEnabled = false
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
