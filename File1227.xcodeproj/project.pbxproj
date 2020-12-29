@@ -45,6 +45,7 @@
 		CE31CE7625985F4F00E26569 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		CE31CE792598615100E26569 /* PreviewVC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreviewVC-Info.plist"; sourceTree = "<group>"; };
 		CE31CE952598626100E26569 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		CE31CE97259AE57600E26569 /* File1227.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = File1227.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		CE31CE3D259854F800E26569 /* File1227 */ = {
 			isa = PBXGroup;
 			children = (
+				CE31CE97259AE57600E26569 /* File1227.entitlements */,
 				CE31CE3E259854F800E26569 /* AppDelegate.swift */,
 				CE31CE40259854F800E26569 /* SceneDelegate.swift */,
 				CE31CE44259854F800E26569 /* Main.storyboard */,
@@ -344,6 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = File1227/File1227.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDY29GF949;
 				INFOPLIST_FILE = File1227/Info.plist;
@@ -364,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = File1227/File1227.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDY29GF949;
 				INFOPLIST_FILE = File1227/Info.plist;

@@ -11,11 +11,17 @@ class GroupLister: UITableViewController {
 
     var files = [URL]()
     var docsurl: URL {
-        do {
-            let fm = FileManager.default
-            return try fm.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
-        } catch {
-            print(error)
+        let del = UIApplication.shared.delegate
+        if let ubiq = (del as! AppDelegate).ubiq {
+            return ubiq
+        }
+        else {
+            do {
+                let fm = FileManager.default
+                return try fm.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
+            } catch {
+                print(error)
+            }
         }
         return NSURL() as URL // shouldn't happen
     }
@@ -24,7 +30,6 @@ class GroupLister: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let b = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(doAdd))
         self.navigationItem.rightBarButtonItems = [b]
         let b2 = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(doRefresh))
@@ -35,7 +40,6 @@ class GroupLister: UITableViewController {
 
     
     @objc func doRefresh (_: Any?) {
-        print("refreshing")
         do {
             let fm = FileManager.default
             self.files = try fm.contentsOfDirectory(at: self.docsurl, includingPropertiesForKeys: nil).filter {
