@@ -23,6 +23,7 @@
 		CE31CE7425985F2300E26569 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE7325985F2300E26569 /* PreviewViewController.swift */; };
 		CE31CE7725985F4F00E26569 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE31CE7625985F4F00E26569 /* MainInterface.storyboard */; };
 		CE31CE7A2598615100E26569 /* PreviewVC-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE31CE792598615100E26569 /* PreviewVC-Info.plist */; };
+		CE31CE9B259C4F8A00E26569 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE9A259C4F8A00E26569 /* Info.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		CE31CE792598615100E26569 /* PreviewVC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreviewVC-Info.plist"; sourceTree = "<group>"; };
 		CE31CE952598626100E26569 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		CE31CE97259AE57600E26569 /* File1227.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = File1227.entitlements; sourceTree = "<group>"; };
+		CE31CE9A259C4F8A00E26569 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				CE31CE47259854FB00E26569 /* Assets.xcassets */,
 				CE31CE49259854FB00E26569 /* LaunchScreen.storyboard */,
 				CE31CE4C259854FB00E26569 /* Info.plist */,
+				CE31CE9A259C4F8A00E26569 /* Info.swift */,
 			);
 			path = File1227;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE31CE6425985CCE00E26569 /* Person.swift in Sources */,
+				CE31CE9B259C4F8A00E26569 /* Info.swift in Sources */,
 				CE31CE5B25985B5300E26569 /* GroupLister.swift in Sources */,
 				CE31CE7425985F2300E26569 /* PreviewViewController.swift in Sources */,
 				CE31CE3F259854F800E26569 /* AppDelegate.swift in Sources */,

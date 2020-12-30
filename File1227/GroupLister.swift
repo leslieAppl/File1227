@@ -36,6 +36,20 @@ class GroupLister: UITableViewController {
         self.navigationItem.leftBarButtonItems = [b2]
         self.title = "Groups"
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: self.cellID)
+        
+        // Access And Read App’s Info.plist variables with Codable Struct.
+        if  let path        = Bundle.main.path(forResource: "Info", ofType: "plist"),
+            let xml         = FileManager.default.contents(atPath: path),
+            let preferences = try? PropertyListDecoder().decode(Info.self, from: xml)
+        {
+            print("-------")
+            print(preferences.CFBundleExecutable)
+        }
+        else {
+            return
+        }
+
+
     }
 
     
